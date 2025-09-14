@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+}
+
+
+.top1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(37, 32, 44);
+    display: flex;
+}
+
+.top2 {
+    background-color: rgb(30, 29, 39);
+    width: 100%;
+    height: 175px;
+    display: flex;
+}
+
+.herb {
+    width: fit-content;
+    height: 175px;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    margin-left: 50px;
+}
+
+.herb img{
+    scale: 0.70;
+}
+
+.herb h1{
+    display: block;
+    color: white;
+    font-family: "Rubik";
+    height: fit-content;
+    margin: 0;
+    font-size: 35px;
+
+}
+
+.top-tytul {
+    text-align: center;
+    align-content: center;
+}
+
+
+
+.top-bar-right {
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.top-bar-right button{
+    background-color:rgb(30, 29, 39);
+    color: white;
+    font-family: "Rubik";
+    border: none;
+    font-size: 15px;
+    transition: background-color 0.2s;
+    transition: scale 0.2s;
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.top-bar-right button:hover {
+    background-color: rgb(39, 38, 51);
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.weather-forecast {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    justify-content: center;
+    transition: background-color 0.2s;
+
+}
+
+.weather-forecast img{
+    width: 50px;
+    object-fit: contain;
+    display: block;
+}
+
+.weather-forecast p{
+    color: white;
+    font-family: "Rubik";
+    margin: 0px;
+    text-align: center;
+}
+
+.weather-forecast h2{
+    color: white;
+    font-family: "Rubik";
+    margin: 0px;
+    text-align: center;
+}
+
+.weather-forecast-symbol {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-forecast:hover {
+    background-color: rgb(39, 38, 51);
+
+}
+
+.main-content {
+    background-color: rgb(37, 32, 44);
+    padding-top: 50px;
+    padding-bottom: 250px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-content p{
+    margin: 0;
+    color: white;
+}
+
+.wpis {
+    margin-top: 40px;
+    width: 300px;
+    height: 400px;
+    background-color:  rgb(37, 32, 44);
+    display: flex;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    transition: scale 0.2s;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.wpis:hover {
+    scale: 1.03;
+}
+
+.wpis:active {
+    scale: 0.90;
+}
+
+.wpis img{
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+}
+
+.wpis p{
+    color: white;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: lighter;
+}
+
+.wpis h2{
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    margin: 0px;
+    font-weight: lighter; 
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.wpis_div_img {
+    width: 100%;
+}
