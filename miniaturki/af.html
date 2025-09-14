@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title> Rowerem po Łódzkim </title>
+        <link rel="stylesheet" href="./af_files/style.css">
+    </head>
+    <body>
+        <div class="tytul">
+            <img src="./af_files/rynek.jpg">
+            <div class="tytul-tekst">
+                <h2>Rowerem po Łęczycy</h2>
+            </div>
+        </div>
+
+        <nav class="top-bar">
+           <ul>
+                <li><a href="http://127.0.0.1:5500/index.html">GŁÓWNA</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html">KONTAKT</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html">ZDJECIA</a></li>
+           </ul> 
+        </nav>
+
+        <div class="all">
+            <div class="wpis">
+                <div class="wpis_div_img">
+                    <img src="./af_files/rowerzysta1.jpg">
+                </div>
+                <h2>
+                    Jak jechać szybciej?
+                </h2>
+                <p>
+                    Szybkie pedałowanie to nie wszystko!
+                </p>
+            </div>
+
+
+            <div class="wpis">
+                <div class="wpis_div_img">
+                    <img src="./af_files/flaga_izraela.jpeg">
+                </div>
+                <h2>
+                    Izrael czy Palestyna?
+                </h2>
+                <p>
+                    W tym artykule wyjaśniamy dlaczego Izrael nie istnieje
+                </p>
+            </div>
+
+            <div class="wpis">
+                <div onclick="location.href = &#39;1.html&#39;;" class="wpis_div_img">
+                    <img src="./af_files/flaga_izraela.jpeg">
+                </div>
+                <h2>
+                    Izrael czy Palestyna?
+                </h2>
+                <p>
+                    W tym artykule wyjaśniamy dlaczego Izrael nie istnieje
+                </p>
+            </div>
+            
+            <div class="wpis">
+                <div class="wpis_div_img">
+                    <img src="./af_files/flaga_izraela.jpeg">
+                </div>
+                <h2>
+                    Izrael czy Palestyna?
+                </h2>
+                <p>
+                    W tym artykule wyjaśniamy dlaczego Izrael nie istnieje
+                </p>
+            </div>
+        </div>
+
+        <div class="oddzielenie">
+
+        </div>
+
+        <div class="sekcja-komentarzy">
+            <textarea placeholder="Komentarz">            </textarea>
+            
+        </div>
+
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
